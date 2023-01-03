@@ -1,0 +1,32 @@
+{
+  "HELLO": "Probando hola",
+  "IS_STRING": "Campo $t({entity}.{property}) debe ser texto",
+  "IS_URL": "Campo $t({entity}.{property}) debe ser un url",
+  "IS_EMAIL": "Campo $t({entity}.{property}) debe ser un email válido",
+  "IS_POSITIVE": "Campo $t({entity}.{property}) debe ser positivo",
+  "IS_INT": "Campo $t({entity}.{property}) debe ser entero",
+  "IS_BOOLEAN": "Campo $t({entity}.{property}) debe ser booleano",
+  "IS_DATE": "Campo $t({entity}.{property}) debe ser una fecha",
+  "IS_ENUM": "Campo $t({entity}.{property}) debe ser uno de los siguientes valores: {enum}",
+  "MIN": "Campo $t({entity}.{property}) debe ser mayor o igual a {min}",
+  "MAX": "Campo $t({entity}.{property}) debe ser menor o igual a {max}",
+  "MAX_LENGTH": "Campo $t({entity}.{property}) debe tener una longitud menor o igual a {max}",
+  "MIN_LENGTH": "Campo $t({entity}.{property}) debe tener una longitud mayor o igual a {min}",
+  "BAD_REQUEST": "Error en la petición",
+  "NOT_FOUND": "{entity} no $t(lang.FOUND.{gender})",
+  "RESOURCE": "Recurso",
+  "FOUND": {
+    "m": "encontrado",
+    "f": "encontrada",
+    "mp": "encontrados",
+    "fp": "encontradas"
+  },
+  "CONFLICT": "{entity} ya $t(lang.CREATED.{gender})",
+  "CREATED": {
+    "m": "creado",
+    "f": "creada",
+    "mp": "creados",
+    "fp": "creadas"
+  },
+  "UNAUTHORIZED": "No autorizado"
+}
