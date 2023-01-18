@@ -20,7 +20,7 @@ const config = [
       entitiesDir: 'src/modules',
       migrationsDir: 'src/migrations',
     },
-    timexone: '-05:00',
+    timezone: '-05:00',
     namingStrategy: new SnakeNamingStrategy(),
   },
 ];
